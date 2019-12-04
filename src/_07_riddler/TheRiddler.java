@@ -1,3 +1,5 @@
+import javax.swing.JOptionPane;
+
 package _07_riddler;
 //    Copyright (c) The League of Amazing Programmers 2013-2019
 //    Level 0
@@ -7,7 +9,14 @@ package _07_riddler;
 public class TheRiddler {
 
 	public static void main(String[] args) {
-
+		int score = 0;
+		JOptionPane.showInputDialog("What can travel around the world while staying in the corner?");
+		if
+		
+		
+		
+		
+		score++;
 		// 1. Make a variable to hold the score
 
 		// 3. Ask the user a riddle. Here are some ideas: bit.ly/some-riddles

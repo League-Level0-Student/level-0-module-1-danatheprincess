@@ -39,8 +39,9 @@ sound.rewind();
 
 }
 if (mousePressed && (mouseButton == RIGHT)) {
-
-
+PImage pepper =loadImage("otherpepper.jpeg");
+pepper.resize(40,40);
+image(pepper,mouseX,mouseY);
 }
 /*
 //[Optional] Add a different topping with the right mouse click.
