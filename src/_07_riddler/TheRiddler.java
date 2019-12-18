@@ -9,7 +9,7 @@ public class TheRiddler {
 
 	public static void main(String[] args) {
 		int score = 0;
-
+		
 		String answer = JOptionPane.showInputDialog("What can travel around the world while staying in the corner?");
 		if (answer.equals("a stamp")) {
 			JOptionPane.showMessageDialog(null, "correct!");
@@ -47,6 +47,6 @@ else {
 		// 6. Add some more riddles
 
 		// 2. Make a pop up to show the score.
-
+JOptionPane.showMessageDialog(null,"Your score is "+score);
 	}
 }
